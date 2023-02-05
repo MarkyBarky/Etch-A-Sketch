@@ -1,0 +1,58 @@
+body {
+  background-color:rgb(12, 187, 240);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#grid-container {
+  border-style: solid;
+  border-color: black;
+  border-width: 0.7em;
+  border-radius: 2%;
+  width: 33em;
+  height: 33em;
+  display: flex;
+  flex-direction: column;
+}
+
+#title {
+  font-size: 2.5em;
+  font-family: "Sansita Swashed", cursive;
+  color: brown;
+  
+}
+
+button {
+  font-size: 1.4em;
+  border-style: solid;
+  margin-top: 1.3em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  background-color: rgb(165, 87, 42);
+  color: black;
+  width: 7em;
+  height: 3em;
+  border-radius: 5%;
+  font-family: "Sansita Swashed", cursive;
+  
+}
+
+.row {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.cell {
+  background-color: white;
+  flex: 1;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.draw {
+  background-color: rgb(202, 103, 45);;
+}
